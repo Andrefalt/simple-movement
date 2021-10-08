@@ -1,5 +1,6 @@
 document.addEventListener('keydown', (tecla)=>{
   var element = document.querySelector('#elementid');
+  element.style.position = "absolute";
   var hor = getComputedStyle(document.querySelector('#elementid')).left;
   var ver = getComputedStyle(document.querySelector('#elementid')).bottom;
   /*
